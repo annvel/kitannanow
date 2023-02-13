@@ -10,7 +10,7 @@ body {
 
 .header {
     background-color: #1f2937;
-    padding: 0 50px;
+    padding: 0 80px;
 }
 
 .branding {
@@ -39,7 +39,38 @@ body {
     text-decoration: none;
 }
 
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.hero-left {
+    width: 40%;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 20px 0;
+}
+
+.hero-left button {
+    background-color: #3882f6;;
+    color: #fff;
+    padding: 8px 25px;
+    border-radius: 5px;
+    border: none;
+}
+
 .hero-pic {
-    width: 100px;
+    max-width: 500px;
     height: auto;
 }
