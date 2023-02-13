@@ -74,3 +74,24 @@ body {
     max-width: 500px;
     height: auto;
 }
+
+.latest-music {
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 40px;
+}
+
+.card-container {
+    display: flex;
+}
+
+.card img {
+    width:50px;
+    height: auto;
+}
