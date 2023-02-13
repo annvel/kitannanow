@@ -44,6 +44,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 50px 0;
+    height: calc(100vh - 100px);
 }
 
 .hero-left {
@@ -79,6 +80,7 @@ body {
     display: flex;
     padding: 50px;
     flex-direction: column;
+    /*border-bottom: 1px solid red;*/
 }
 
 .title {
@@ -89,9 +91,58 @@ body {
 
 .card-container {
     display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.card {
+    max-width: 255px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    /*align-items: center;
+    justify-content: center;*/
+}
+
+.music-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card img {
-    width:50px;
-    height: auto;
+    width: 255px;
+    height: 255px;
+    object-fit: cover;
+    object-position: center;
+    /*border-radius: 2%;*/
+}
+
+.button-music {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-music button {
+    font-size: 10px;
+    text-transform: uppercase;
+    flex-basis: 125px;
+    background-color: #3882f6;;
+    color: #fff;
+    padding: 8px 25px;
+    /*border-radius: 2px;*/
+    border: none;
+}
+
+.card h4 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.card p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 12px;
 }
