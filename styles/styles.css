@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.header {
+    background-color: #1f2937;
+    padding: 0 50px;
+}
+
+.branding {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.hero-pic {
+    width: 100px;
+    height: auto;
+}
