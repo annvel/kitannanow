@@ -183,3 +183,41 @@ body {
 .bio-info p span {
     font-style: italic;
 }
+
+.newsletter {
+    display: flex;
+    padding: 50px 0;
+}
+
+.newsletter-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    padding: 50px 120px;
+    background-color: #3882f6;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.newsletter-left h4 {
+    padding-bottom: 5px;
+}
+
+.newsletter-right button {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #fff;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
