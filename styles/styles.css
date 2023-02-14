@@ -146,3 +146,40 @@ body {
     text-justify: inter-word;
     font-size: 12px;
 }
+
+.kitanna-bio {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #e5e7eb;
+    margin: 10px 0;
+
+    /*margin-top: 10px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;*/
+}
+
+.bio-picture {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.bio-info {
+    width: 40%;
+}
+
+.bio-info p {
+    text-align: justify;
+    text-justify: inter-word;
+    padding-top: 20px;
+    color: #1f2937;
+    font-weight: lighter;
+    line-height: 20px;
+}
+
+.bio-info p span {
+    font-style: italic;
+}
