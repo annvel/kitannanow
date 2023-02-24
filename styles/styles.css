@@ -145,6 +145,7 @@ body {
 .card h4 {
     text-align: center;
     padding: 10px 0;
+    font-size: 18px;
 }
 
 .card p {
