@@ -66,6 +66,7 @@ body {
     font-size: 18px;
     color: #e5e7eb;
     padding: 20px 0;
+    line-height: 25px;
 }
 
 .hero-left button {
@@ -152,6 +153,7 @@ body {
     text-align: justify;
     text-justify: inter-word;
     font-size: 16px;
+    line-height: 25px;
 }
 
 .kitanna-bio {
@@ -186,7 +188,7 @@ body {
     padding-top: 20px;
     color: #1f2937;
     font-weight: lighter;
-    line-height: 20px;
+    line-height: 25px;
 }
 
 .bio-info p span {
