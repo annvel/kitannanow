@@ -173,6 +173,7 @@ body {
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
+    margin-bottom: 40px;
 }
 
 .bio-info {
